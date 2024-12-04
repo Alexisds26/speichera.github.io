@@ -1,0 +1,64 @@
+/* Mobile view */
+body {
+    background-color: #f5ffff;
+}
+/*header*/
+.top {
+    background-color: #8DD7E7;
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    grid-template-rows: repeat(1, 100px);
+    
+}
+.header_logo {
+    height: 75px;
+    width: 75px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+}
+.top_header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-left: 20px;
+}
+.navbar {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+/*main*/
+.beach_bkg {
+    background-image: url(../Beach_imgs/bkg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main_title {
+    padding-top: 100px;
+    text-align: center;
+}
+.slogan {
+    text-align: center;
+}
+.est {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.mission_statement {
+    background-color: #FFF3E0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* footer */
+.foot {
+    background-color: #8DD7E7;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.footer_logo {
+    height: 50px;
+    width: 50px;
+}
+
