@@ -32,6 +32,7 @@ body {
     background-size: cover;
 }
 .main_title {
+    margin-top: -10px;
     padding-top: 100px;
     text-align: center;
 }
@@ -46,7 +47,7 @@ body {
     background-color: #FFF3E0;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin: 8%;
+    margin: 6%;
     border-radius: 5%;
     text-align: center;
     display: flex;
