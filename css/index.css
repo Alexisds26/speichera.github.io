@@ -91,3 +91,26 @@ body {
     width: 50px;
 }
 
+@media screen and (min-width: 700px) {
+
+body {
+    background-image: url(../Beach_imgs/bkg.jpeg);
+    background-size: cover;
+}
+.header_logo {
+    display: none;
+}
+.top_header {
+    display: none;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3 33%);
+}
+.beach_bkg {
+    grid-column: 1/3;
+}
+.mission_statement {
+    grid-column: 3/4;
+}
+}
