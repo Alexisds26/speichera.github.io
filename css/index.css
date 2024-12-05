@@ -26,13 +26,10 @@ body {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
 }
-
 /*main*/
 .beach_bkg {
-    background-image: url(../Beach_imgs/bkg_img.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../Beach_imgs/bkg.jpeg);
     background-size: cover;
-    
 }
 .main_title {
     padding-top: 100px;
@@ -49,6 +46,30 @@ body {
     background-color: #FFF3E0;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 8%;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate_button {
+    background-color: #f5ffff;
+    padding: 10px 20px;
+    border-color: #296c7a;
+    border-style: solid;
+    border-radius: 5%;
+    
+}
+.donate_button > a {
+    text-decoration: none;
+    color: #296c7a;
+}
+#db a:hover a:focus {
+    background-color: #296c7a;
+    color: white;
+    text-decoration: underline;
 }
 
 /* footer */
