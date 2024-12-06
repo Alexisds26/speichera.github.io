@@ -36,19 +36,54 @@ body {
     margin: 10%;
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
 }
 .img{
     grid-column: 1 / 2;
+    margin-right: 10%;
 }
 .imgonethree{
     width: 100%;
+    margin: 10%;
 }
 .descriponethree {
     grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15%;
 }
 .eventtwo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
     background-color: #ffe6bf;
-    margin: 10%
+    margin: 10%;
+}
+.divtwoimg{
+    grid-column: 2 / 3;
+}
+.descriptwo {
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15%;
+}
+.imgtwo{
+    width: 100%;
+
+}
+.date {
+    background-color: #8DD7E7;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px;
 }
 /* footer */
 .foot {
