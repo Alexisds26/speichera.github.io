@@ -44,7 +44,7 @@ body {
 }
 
 .form {
-    background-color: #ffe6bf;
+    background-color: #fff3E0;
     margin: 10px;
     width: 60%;
     border-radius: 7px;
@@ -69,7 +69,7 @@ body {
     padding: 5%;
 }
 .button{
-    background-color: #ffe6bf;
+    background-color: #fff3E0;
     padding: 10px 20px;
     border-style: hidden;
     border-radius: 5px;
@@ -157,7 +157,7 @@ main {
 
 }
 .form {
-    background-color: #ffe6bf;
+    background-color: #fff3E0;
     margin: 10px;
     width: 60%;
     border-radius: 7px;
@@ -184,7 +184,7 @@ main {
     padding: 5%;
 }
 .button{
-    background-color: #ffe6bf;
+    background-color: #fff3E0;
     padding: 10px 20px;
     border-style: hidden;
     border-radius: 5px;

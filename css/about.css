@@ -1,0 +1,27 @@
+.top {
+    background-color: #8DD7E7;
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    grid-template-rows: repeat(1, 100px);
+}
+.header_logo {
+    height: 75px;
+    width: 75px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    align-self: center;
+}
+.top_header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30pt;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
