@@ -31,8 +31,25 @@ body {
     grid-row: 1 / 2;
 }
 /*main*/
-
-
+.eventonethree{
+    background-color: #ffe6bf;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img{
+    grid-column: 1 / 2;
+}
+.imgonethree{
+    width: 100%;
+}
+.descriponethree {
+    grid-column: 2 / 3;
+}
+.eventtwo{
+    background-color: #ffe6bf;
+    margin: 10%
+}
 /* footer */
 .foot {
     background-color: #8DD7E7;
