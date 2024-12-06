@@ -21,6 +21,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30pt;
+
 }
 .navbar {
     grid-column: 3 / 4;

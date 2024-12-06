@@ -6,7 +6,7 @@ body {
 .top {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 25% 60% 15%;
+    grid-template-columns: 20% 60% 15%;
     grid-template-rows: repeat(1, 100px);
     
 }
@@ -21,6 +21,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30pt;
+
 }
 .navbar {
     grid-column: 3 / 4;
@@ -60,10 +64,35 @@ body {
 }
 .descrip {
     grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
 }
-.donatehere{
+.button{
     background-color: #ffe6bf;
+    padding: 10px 20px;
+    border-style: hidden;
+    border-radius: 5px;
+    transition-duration: 0.4s;
 }
+.button:hover {
+    background-color: #e3dac8;
+    text-decoration: underline;
+    border-style: solid;
+    border-color: #296c7a;
+}
+.button:focus {
+    background-color: #e3dac8;
+    text-decoration: underline;
+    border-style: solid;
+    border-color: #296c7a;
+}
+.donatebutton> a:hover {
+    color: white;
+}
+
 /* footer */
 .foot {
     background-color: #8DD7E7;
