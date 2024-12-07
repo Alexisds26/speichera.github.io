@@ -71,6 +71,7 @@ a:hover {
 
 .nav-collapse.opened {
   max-height: 9999px;
+  background-color: #8DD7E7;
 }
 
 header {

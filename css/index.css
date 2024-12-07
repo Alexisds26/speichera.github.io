@@ -37,6 +37,7 @@ body {
     font-family: "Red Hat Display", serif;
 
 }
+
 .navbar {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
