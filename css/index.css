@@ -69,6 +69,9 @@ body {
     font-size: 20pt;
     font-family: "Red Hat Display", serif;
 }
+.statement{
+    margin: 0% 10% 10% 10%;
+}
 .mission_statement {
     background-color: #FFF3E0;
     padding-top: 50px;

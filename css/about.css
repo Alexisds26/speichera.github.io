@@ -51,6 +51,7 @@ body {
 }
 .gtku {
     display: flex;
+    font-family: "Crimson Text", serif;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -90,6 +91,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Crimson Text", serif;
     grid-row: 1/2;
 }
 .Alexis {
@@ -101,6 +103,7 @@ body {
     padding: 5%;
 }
 .name {
+    font-family: "Red Hat Display", serif;
     background-color: #FFF3E0;
     border-radius: 5px;
     width: 70%;

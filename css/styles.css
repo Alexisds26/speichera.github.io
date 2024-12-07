@@ -5,6 +5,18 @@ body {
   border: 0;
 }
 
+
+.home{
+  transition-duration: 0.4s;
+}
+.home:hover {
+  text-decoration: underline;
+}
+.home:focus {
+    text-decoration: underline;
+}
+
+
 a:active,
 a:hover {
   outline: 0;
