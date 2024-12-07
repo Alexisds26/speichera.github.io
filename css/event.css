@@ -61,8 +61,9 @@ body {
     background-color: #fff3E0;
     margin: 10%;
 }
-.divtwoimg{
+.imgtwo{
     grid-column: 2 / 3;
+    display: flex;
 }
 .descriptwo {
     grid-column: 1 / 2;
@@ -73,8 +74,10 @@ body {
     flex-direction: column;
     margin: 15%;
 }
-.imgtwo{
+.sunrise{
     width: 100%;
+    margin: 10%;
+    margin-left: -10%
 
 }
 .date {
@@ -130,6 +133,11 @@ body {
         grid-row: 1 / 2;
     }
     /*main*/
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+}
     .eventonethree{
         background-color: #fff3E0;
         margin: 10%;
@@ -138,6 +146,7 @@ body {
         grid-template-rows:auto;
     }
     .img{
+        display: flex;
         grid-column: 1 / 2;
         margin-right: 10%;
     }
@@ -160,7 +169,8 @@ body {
         background-color: #fff3E0;
         margin: 10%;
     }
-    .divtwoimg{
+    .imgtwo{
+        display: flex;
         grid-column: 2 / 3;
     }
     .descriptwo {
@@ -172,8 +182,11 @@ body {
         flex-direction: column;
         margin: 15%;
     }
-    .imgtwo{
+    .sunrise{
         width: 100%;
+        margin: 10%;
+        margin-left: -10%
+
     
     }
     .date {

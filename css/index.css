@@ -6,7 +6,7 @@ body {
 .top {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 25% 60% 15%;
+    grid-template-columns: 20% 60% 15%;
     grid-template-rows: repeat(1, 100px);
     
 }
@@ -21,9 +21,13 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30pt;
+
 }
 .navbar {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 /*main*/
