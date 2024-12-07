@@ -6,7 +6,7 @@ body {
 .top {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 25% 60% 15%;
+    grid-template-columns: 20% 60% 15%;
     grid-template-rows: repeat(1, 100px);
     
 }
@@ -27,7 +27,7 @@ body {
 
 }
 .navbar {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 /*main*/
@@ -96,3 +96,103 @@ body {
     width: 50px;
 }
 
+@media screen and (min-width: 700px) {
+
+    body {
+        background-color: #f5ffff;
+    }
+    /*header*/
+    .top {
+        background-color: #8DD7E7;
+        display: grid;
+        grid-template-columns: 10% 10% 80%;
+        grid-template-rows: repeat(1, 100px);
+    }
+    .header_logo {
+        height: 75px;
+        width: 75px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center;
+    }
+    .top_header {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 30pt;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    /*main*/
+    .eventonethree{
+        background-color: #fff3E0;
+        margin: 10%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:auto;
+    }
+    .img{
+        grid-column: 1 / 2;
+        margin-right: 10%;
+    }
+    .imgonethree{
+        width: 100%;
+        margin: 10%;
+    }
+    .descriponethree {
+        grid-column: 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15%;
+    }
+    .eventtwo{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        background-color: #fff3E0;
+        margin: 10%;
+    }
+    .divtwoimg{
+        grid-column: 2 / 3;
+    }
+    .descriptwo {
+        grid-column: 1 / 2;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15%;
+    }
+    .imgtwo{
+        width: 100%;
+    
+    }
+    .date {
+        background-color: #8DD7E7;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 5%;
+        border-radius: 20px;
+    }
+    /* footer */
+    .foot {
+        background-color: #8DD7E7;
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+    .footer_logo {
+        height: 50px;
+        width: 50px;
+    }
+
+}
