@@ -1,3 +1,6 @@
+body {
+    background-color: #f5ffff;
+}
 .top {
     background-color: #8DD7E7;
     display: grid;
@@ -24,4 +27,106 @@
     align-items: center;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    justify-content: end;
+}
+
+.backstory {
+    background-color: #FFF3E0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.back {
+    text-align: center;
+}
+.backimg {
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 5%;
+}
+.gtku {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    background-color: #8DD7E7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+.person1 {
+    background-color: #8DD7E7;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.Alexis {
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.person2 {
+    background-color: #8DD7E7;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.Ella {
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 5px;
+    max-height: 80%;
+}
+.person3 {
+    background-color: #8DD7E7;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.Alyssa {
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.person4 {
+    background-color: #8DD7E7;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+    height: 400px;
+    margin-bottom: 15px;
+    height: 400px;
+}
+.Kambell {
+    width: 80%;
+    max-height: 80%;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.foot {
+    background-color: #8DD7E7;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.footer_logo {
+    height: 50px;
+    width: 50px;
 }
