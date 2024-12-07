@@ -23,15 +23,18 @@ body {
     margin-left: 20px;
     display: flex;
     align-items: center;
-    font-size: 30pt;
+    font-size: 20pt;
+    font-family: "Red Hat Display", serif;
 
 }
 .navbar {
     grid-column: 3 /4;
     grid-row: 1 / 2;
 }
-
-
+.home {
+    font-family: "Red Hat Display", serif;
+    font-size: 14pt;
+}
 /*main*/
 .eventonethree{
     background-color: #fff3E0;
@@ -43,6 +46,7 @@ body {
 .img{
     grid-column: 1 / 2;
     margin-right: 10%;
+    display: flex;
 }
 .imgonethree{
     width: 100%;
@@ -56,6 +60,7 @@ body {
     flex-direction: column;
     margin: 15%;
 }
+
 .eventtwo{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -76,6 +81,11 @@ body {
     flex-direction: column;
     margin: 15%;
 }
+.blurb {
+    font-family: "Crimson Text", serif;
+    font-size: 16pt;
+}
+
 .sunrise{
     width: 100%;
     margin: 10%;
@@ -84,6 +94,8 @@ body {
 }
 .date {
     background-color: #8DD7E7;
+    font-family: "Red Hat Display", serif;
+    font-size: 16pt;
     display: flex;
     justify-content: center;
     width: 80%;
@@ -95,6 +107,8 @@ body {
     background-color: #8DD7E7;
     display: grid;
     grid-template-columns: 20% 80%;
+    font-size: 16pt;
+    font-family: "Red Hat Display", serif;
 }
 .footer_logo {
     height: 50px;
@@ -134,11 +148,11 @@ body {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-    /*main*/
+/*main*/
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 0.5rem;
+    grid-gap: 0.1rem;
     grid-template-rows: auto;
 }
 .eventonethree{
@@ -154,8 +168,8 @@ main {
     margin-right: 10%;
 }
 .imgonethree{
-        width: 100%;
-        margin: 10%;
+    width: 100%;
+    margin: 10%;
 }
 .descriponethree {
         grid-column: 2 / 3;
@@ -189,8 +203,6 @@ main {
         width: 100%;
         margin: 10%;
         margin-left: -10%
-
-    
 }
 .date {
     background-color: #8DD7E7;

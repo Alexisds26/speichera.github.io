@@ -41,6 +41,10 @@ body {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
 }
+.home {
+    font-family: "Red Hat Display", serif;
+    font-size: 14pt;
+}
 /*main*/
 .beach_bkg {
     background-image: url(../Beach_imgs/bkg.jpeg);

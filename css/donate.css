@@ -23,14 +23,23 @@ body {
     margin-left: 20px;
     display: flex;
     align-items: center;
-    font-size: 30pt;
+    font-size: 20pt;
+    font-family: "Red Hat Display", serif;
 
 }
 .navbar {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
 }
+.home {
+    font-family: "Red Hat Display", serif;
+    font-size: 14pt;
+}
 /*main*/
+.signup {
+    font-family: "Red Hat Display", serif;
+    font-size: 20pt;
+}
 .news {
     display: flex;
     flex-direction: column;
@@ -38,27 +47,78 @@ body {
     align-items: center;
     background-color:#8DD7E7;
     margin: 20px;
-    grid-column: 2/3;
-    grid-row: auto;
     border-radius: 7px;
 }
 
 .form {
     background-color: #fff3E0;
-    margin: 10px;
-    width: 60%;
     border-radius: 7px;
+}
+.title {
+    font-family: "Crimson Text", serif;
+    font-size: 16pt;
+}
+.input {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+    border: 2px solid transparent;
+    font-size: 16px;
+    height: auto;
     padding: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-bottom: 30px;
+    transition: all 400ms;
+}
+input::placeholder,textarea::placeholder {
+    color: #296c7a;
+}
+input:hover, input:focus, textarea:hover, textarea:focus{
+    border: 2px solid #296c7a
+}
+.submit {
+    background-color: #f5ffff;
+    padding: 10px 20px;
+    border-color: #296c7a;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5%;
+    color: #296c7a;
+    transition-duration: 0.4s;
+    font-size: 18pt;
+    font-family: "Red Hat Display", serif;
+}
+.submit:hover {
+    background-color: #296c7a;
+    color: white;
+    text-decoration: underline;
+}
+.submit:focus {
+    background-color: #296c7a;
+    color: white;
+    text-decoration: underline;
 }
 .donate {
     display: grid;
+    border-radius: 7px;
     background-color: #8DD7E7;
     margin: 20px;
+    align-items: center;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
 }
 .imgone {
     grid-column: 1/2;
+    grid-row: 1/3;
 }
 .descrip {
     grid-column: 2/3;
@@ -68,12 +128,19 @@ body {
     align-items: center;
     padding: 5%;
 }
+.descrip > p {
+    font-family: "Crimson Text", serif;
+    font-size: 16pt;
+    margin-left: 20px;
+}
 .button{
     background-color: #fff3E0;
     padding: 10px 20px;
     border-style: hidden;
     border-radius: 5px;
     transition-duration: 0.4s;
+    font-size: 16pt;
+    font-family: "Red Hat Display", serif;
 }
 .button:hover {
     background-color: #e3dac8;
@@ -92,6 +159,8 @@ body {
 }
 .photo {
     width: 100%;
+    border-radius: 7px;
+    padding: 10px;
 }
 .noworries {
     background-color:#8DD7E7;
@@ -104,16 +173,19 @@ body {
 }
 .text {
     margin: 10%;
+    font-family: "Crimson Text", serif;
+    font-size: 16pt;
 }
-.here {
-    margin-bottom: 10%;
-}
+
 .here{
     background-color: #fff3E0;
     padding: 10px 20px;
     border-style: hidden;
     border-radius: 5px;
     transition-duration: 0.4s;
+    margin-bottom: 10%;
+    font-size: 16pt;
+    font-family: "Red Hat Display", serif;
 }
 .here:hover {
     background-color: #e3dac8;
@@ -135,6 +207,8 @@ body {
     background-color: #8DD7E7;
     display: grid;
     grid-template-columns: 20% 80%;
+    font-size: 16pt;
+    font-family: "Red Hat Display", serif;
 }
 .footer_logo {
     height: 50px;
@@ -209,7 +283,10 @@ main {
     grid-row: 1 / 2 ;
 }
 .imgone {
+    margin: 5%;
+    width: 100%;
     grid-column: 1/2;
+    grid-row: auto;
 }
 .descrip {
     grid-column: 2/3;
@@ -240,6 +317,9 @@ main {
 }
 .donatebutton> a:hover {
     color: white;
+}
+.donatebutton{
+    margin-left: 10%;
 }
 .photo {
     width: 100%;
