@@ -27,7 +27,6 @@ body {
 .navbar {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    justify-content: end;
 }
 
 .backstory {
@@ -162,7 +161,6 @@ body {
         align-items: center;
         grid-column: 3 / 4;
         grid-row: 1 / 2;
-        justify-content: end;
     }
     
     .backstory {
