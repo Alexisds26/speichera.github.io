@@ -6,7 +6,7 @@ body {
 .top {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 20% 60% 15%;
+    grid-template-columns: 20% 50% 30%;
     grid-template-rows: repeat(1, 100px);
     
 }
@@ -27,9 +27,11 @@ body {
 
 }
 .navbar {
-    grid-column: 2 / 3;
+    grid-column: 3 /4;
     grid-row: 1 / 2;
 }
+
+
 /*main*/
 .eventonethree{
     background-color: #fff3E0;
@@ -92,7 +94,7 @@ body {
 .foot {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 20% 80%;
 }
 .footer_logo {
     height: 50px;
@@ -135,45 +137,46 @@ body {
     /*main*/
 main {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 0.5rem;
     grid-template-rows: auto;
 }
-    .eventonethree{
-        background-color: #fff3E0;
-        margin: 10%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows:auto;
-    }
-    .img{
-        display: flex;
-        grid-column: 1 / 2;
-        margin-right: 10%;
-    }
-    .imgonethree{
+.eventonethree{
+    background-color: #fff3E0;
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
+}
+.img{
+    display: flex;
+    grid-column: 1 / 2;
+    margin-right: 10%;
+}
+.imgonethree{
         width: 100%;
         margin: 10%;
-    }
-    .descriponethree {
+}
+.descriponethree {
         grid-column: 2 / 3;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin: 15%;
-    }
-    .eventtwo{
+}
+.eventtwo{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
         background-color: #fff3E0;
         margin: 10%;
-    }
-    .imgtwo{
+}
+.imgtwo{
         display: flex;
         grid-column: 2 / 3;
-    }
-    .descriptwo {
+}
+.descriptwo {
         grid-column: 1 / 2;
         grid-row: 1/2;
         display: flex;
@@ -181,31 +184,31 @@ main {
         align-items: center;
         flex-direction: column;
         margin: 15%;
-    }
-    .sunrise{
+}
+.sunrise{
         width: 100%;
         margin: 10%;
         margin-left: -10%
 
     
-    }
-    .date {
-        background-color: #8DD7E7;
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        padding: 5%;
-        border-radius: 20px;
-    }
-    /* footer */
-    .foot {
-        background-color: #8DD7E7;
-        display: grid;
-        grid-template-columns: 15% 85%;
-    }
-    .footer_logo {
-        height: 50px;
-        width: 50px;
-    }
+}
+.date {
+    background-color: #8DD7E7;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 5%;
+    border-radius: 20px;
+}
+/* footer */
+.foot {
+    background-color: #8DD7E7;
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+.footer_logo {
+    height: 50px;
+    width: 50px;
+}
 
 }
