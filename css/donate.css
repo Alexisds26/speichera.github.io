@@ -216,7 +216,7 @@ input:hover, input:focus, textarea:hover, textarea:focus{
 .foot {
     background-color: #8DD7E7;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 85%;
     font-size: 16pt;
     font-family: "Red Hat Display", serif;
 }

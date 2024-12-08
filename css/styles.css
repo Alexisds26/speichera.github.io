@@ -134,7 +134,15 @@ header {
   flex-direction: row;
   align-items: flex-end;
 }
-  
+.home{
+  transition-duration: 0.4s;
+}
+.home:hover {
+  text-decoration: underline;
+}
+.home:focus {
+    text-decoration: underline;
+}
   .nav-collapse li {
     width: auto;
   }
